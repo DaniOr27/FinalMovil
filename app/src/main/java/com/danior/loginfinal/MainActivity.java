@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Verifica que el usuario y la contraseña sean correctos
             if ("dani".equals(username) && "123".equals(password)) {
-                // Login exitoso, redirige al perfil
+                
                 Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
                 startActivity(intent);
                 finish(); // Cierra la actividad de login
