@@ -25,8 +25,6 @@ public class EditProfileActivity extends AppCompatActivity {
 
         // Acción para el botón de guardar cambios
         saveButton.setOnClickListener(v -> {
-            // Aquí puedes agregar la lógica para guardar los cambios (como en una base de datos o SharedPreferences)
-            // Simularemos que los cambios se guardan y se vuelve a la pantalla de perfil
             finish(); // Esto cierra la actividad actual (EditProfileActivity) y regresa a la anterior (ProfileActivity)
         });
     }
