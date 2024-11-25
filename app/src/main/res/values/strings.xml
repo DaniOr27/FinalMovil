@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LoginFinal</string>  <!-- Nombre de la aplicación -->
+    <string name="welcome_message">¡Bienvenido!</string>  <!-- Mensaje de bienvenida agregado -->
+</resources>
