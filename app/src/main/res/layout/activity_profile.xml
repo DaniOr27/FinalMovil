@@ -7,7 +7,6 @@
 
     <!-- Imagen de perfil -->
 
-    <!-- Nombre del usuario -->
     <ImageView
         android:id="@+id/profileImage"
         android:layout_width="150dp"
@@ -22,6 +21,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Nombre del usuario -->
 
     <TextView
         android:id="@+id/nameTextView"
@@ -38,6 +39,7 @@
         android:layout_marginEnd="32dp"/>
 
     <!-- Correo electrónico -->
+    
     <TextView
         android:id="@+id/emailTextView"
         android:layout_width="0dp"
@@ -52,7 +54,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"/>
 
-    <!-- Cargo o especialización -->
+    <!-- Cargo o Titulo -->
+    
     <TextView
         android:id="@+id/positionTextView"
         android:layout_width="0dp"
@@ -67,7 +70,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"/>
 
-    <!-- Descripción o biografía -->
+    <!-- Descripción -->
+    
     <TextView
         android:id="@+id/descriptionTextView"
         android:layout_width="0dp"
@@ -100,6 +104,7 @@
         android:layout_marginEnd="32dp"/>
 
     <!-- Botón para editar el perfil -->
+    
     <Button
         android:id="@+id/editProfileButton"
         android:layout_width="wrap_content"
